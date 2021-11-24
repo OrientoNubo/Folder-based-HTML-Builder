@@ -4,7 +4,7 @@
 
 ------
 
-This is a python project that reads files in the root folder to generate static HTML files. You can use it to build your web-based file manager, build simple and efficient log recording pages, and build simple content blogs.
+This is a python project that `reads files in the root folder` to generate `static HTML files`. You can use it to build your web-based file manager, build simple and efficient log recording pages, and build simple content blogs.
 
 
 
