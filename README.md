@@ -4,7 +4,7 @@
 
 ------
 
-This is a python project that `reads files in the root folder` to generate `static HTML files`. You can use it to build your web-based file manager, build simple and efficient log recording pages, and build simple content blog. The css/js has used is from [bootstrap](https://github.com/twbs/bootstrap).
+This is a python project that `reads files in the root folder` to generate `static HTML files`. You can use it to build your web-based file manager, build a simple and efficient log recording pages, or build a simple content blog. The css/js has used is from [bootstrap](https://github.com/twbs/bootstrap).
 
 
 
@@ -15,7 +15,6 @@ numpy==1.21.4
 flask==2.0.2
 pyyaml==6.0
 Frozen-Flask==0.18
-lorem==0.1.1
 beautifulsoup4==4.10.0
 ```
 
