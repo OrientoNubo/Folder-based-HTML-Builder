@@ -4,7 +4,7 @@
 
 ------
 
-This is a python project that `reads files in the root folder` to generate `static HTML files`. You can use it to build your web-based file manager, build simple and efficient log recording pages, and build simple content blogs. The css/js has used is from [bootstrap](https://github.com/twbs/bootstrap).
+This is a python project that `reads files in the root folder` to generate `static HTML files`. You can use it to build your web-based file manager, build simple and efficient log recording pages, and build simple content blog. The css/js has used is from [bootstrap](https://github.com/twbs/bootstrap).
 
 
 
@@ -25,7 +25,11 @@ beautifulsoup4==4.10.0
 
 The root directory of the folder is defined as `./src`, run `builder.py` to generate Flask template files, and then run `freezer.py` to generate static HTML files. 
 
+![](./img/explanation.png)
+
 After that, the static files under `./build` can be placed in the upper-level directory of `src` . You can also deploy static web pages on your CDN.
+
+In terms of the functions currently implemented, the third-level directory under the root directory is the title of each subpage.
 
 
 

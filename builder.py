@@ -23,6 +23,7 @@ def removeFile(file_path):
     except OSError as e:
         pass
 
+
 def mkdir(tempPath):
     Path = "./templates/posts/"
     isExist = os.path.exists(tempPath)
@@ -33,12 +34,10 @@ def mkdir(tempPath):
 
 if __name__ == '__main__':
 
-    file_path = "./app.py"
-    removeFile(file_path)
-
-    tempPath = "./templates"
-    removeExpired(tempPath)
-    mkdir(tempPath)
+    removeFile("./app.py")
+    removeFile("./src/__init__.py")
+    removeExpired("./templates")
+    mkdir("./templates")
     
     StaticList = ['Home', 'Caption', 'Links']
     StaticPageBuilder(StaticList)
